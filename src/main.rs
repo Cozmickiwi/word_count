@@ -1,3 +1,6 @@
+use word_count::word_count;
+
 fn main() {
-    println!("Hello, world!");
+    let path = String::from("test/lorem_ipsum.txt");
+    word_count(path);
 }
